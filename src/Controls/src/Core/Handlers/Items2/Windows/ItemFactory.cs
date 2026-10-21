@@ -119,7 +119,7 @@ internal partial class ItemFactory(ItemsView view) : IElementFactory
 				// rebind (new or recycled container). GoToState(Normal) only transitions
 				// within the CommonStates VisualStateGroup and cannot affect states in other
 				// groups, so it will not clobber app-defined custom states. This matches the
-				// Selected : Normal contract that Android, iOS, and Tizen all honour.
+				// Selected : Normal contract that Android and iOS both honour.
 				if (view is VisualElement visualElement &&
 					_view is SelectableItemsView selectableItemsView)
 				{

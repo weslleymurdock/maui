@@ -362,10 +362,6 @@
         Version="$(MonoApiToolsMSBuildTasksPackageVersion)"
     />
     <PackageReference
-        Update="Tizen.UIExtensions.NUI"
-        Version="$(TizenUIExtensionsVersion)"
-    />
-    <PackageReference
         Update="Svg.Skia"
         Version="$(SvgSkiaPackageVersion)"
     />
